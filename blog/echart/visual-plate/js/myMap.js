@@ -3,7 +3,7 @@
   var myChart = echarts.init(document.querySelector(".map .chart"));
   //myChart.getModel().getComponent('bmap').getBMap();
   // 2. 指定配置和数据
-  $.get('/echart/visual-plate' + '/json/lines-bus.json', function(data) {
+  $.get('https://cdn.jsdelivr.net/gh/CN-Robert-LIU/images@master/blog/echart/visual-plate' + '/json/lines-bus.json', function(data) {
     var hStep = 300 / (data.length - 1);
     var busLines = [].concat.apply([], data.map(function (busLine, idx) {
         var prevPt;
