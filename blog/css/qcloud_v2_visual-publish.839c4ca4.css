@@ -1,0 +1,161 @@
+html,body {
+    height: 100%;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: visible
+}
+
+.data-visual-preview {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+}
+
+.data-visual-edit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+}
+
+.data-visual-content {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.translate-layer{
+  width: 100%;
+  height: 100%;
+  transform-origin: 0px 0px
+}
+
+.dvc-container {
+    position: absolute;
+}
+.message-tip {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+    padding: 0;
+    overflow: visible;
+}
+
+.message-tip-transition-enter, .message-tip-transition-appear {
+    opacity: 0.01;
+    transform: translate(0, 50%);
+}
+
+.message-tip-transition-enter-active, .message-tip-transition-appear-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 500ms ease-in-out;
+}
+
+.message-tip-transition-exit {
+    opacity: 1;
+    height: 30px;
+    line-height: 30px;
+}
+
+.message-tip-transition-exit-active {
+    opacity: 0.01;
+    height: 0;
+    transition: all 500ms ease-in-out;
+}
+.top-alert {
+    display: block;
+    position: static;
+    min-width: 0px;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+.top-alert span {
+    word-break: normal;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.data-visual-content{
+  box-shadow: none!important;
+}
+.page-loading {
+  position:fixed;width:100%;height:100%;color:#fff;text-align:center
+}
+.page-loading .message-ct {
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#fff
+}
+
+@keyframes capturing {
+  from {
+      transform: scale(1)
+  }
+  to {
+      transform: scale(1.1)
+  }
+}
+
+.capture-container {
+  position: absolute;
+  z-index: 999999;
+  width: 50px;
+  height: 50px;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.capture-container .capture-btn {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0s, opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+}
+
+.capture-container .capture-btn .capture-bg {
+  position: absolute;
+  background: #FFF;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+  left: -50px;
+  top: -100px;
+}
+
+.capture-container .capture-btn .capture-bg.doing {
+  animation: capturing 0.3s cubic-bezier(0.42, 0, 0.58, 1) 0s infinite alternate
+}
+
+.capture-container .capture-btn .capture-text {
+  position: absolute;
+  color: #000;
+  font-size: 20px;
+  top: 30px;
+  left: -15px;
+  cursor: pointer;
+}
+
