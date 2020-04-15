@@ -96,18 +96,18 @@ function LazyLoad(){
 //图片预览
 function createImgPrevious() {
     var imgs = $(".article-content").find("img");
-    console.log(imgs);
+    // console.log(imgs);
     for (var i = 0; i < imgs.length; i++) {
         imgs[i].onclick = function (e) {
             var src = e.srcElement.currentSrc;
             var _this = $(this);
-            console.log(_this);
+	    // console.log(_this);
             createCover(src,_this);
         }
     }
     function createCover(src,_this) {
-        console.log(_this);
-        console.log(src);
+        // console.log(_this);
+        // console.log(src);
         var cover = $("<div id='outerDiv'  style='position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:5;width:100%;height:100%;display:none;'><div id='innerDiv' style='position:absolute;'><img  id='bigImg' style='border:5px solid #fff;' src=''/></div></div>");
         $("#outerDiv").remove();
         $("body").append(cover);
