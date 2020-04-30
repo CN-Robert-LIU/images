@@ -1,0 +1,83 @@
+{
+  "modified": "Wed Sep 25 2019 10:31:20 GMT+0800 (中国标准时间)",
+  "width": 109,
+  "height": 93,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(24,149,184)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        9.89385,
+        0.32787,
+        66.23137,
+        10.38923
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(24,149,184,0.80)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        9.89385,
+        15.09474,
+        66.23137,
+        10.38923
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(24,149,184,0.60)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        9.89385,
+        30.32308,
+        66.23137,
+        10.38923
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(24,149,184,0.40)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        9.89385,
+        45.62814,
+        66.23137,
+        10.38923
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(26,151,186,0.30)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        9.89385,
+        60.96799,
+        66.23137,
+        10.38923
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgba(50,200,230,0.45)",
+      "pixelPerfect": true,
+      "points": [
+        1.28884,
+        0,
+        1.28884,
+        91.93708,
+        96.04923,
+        91.93708,
+        108.49683,
+        78.53608
+      ]
+    }
+  ]
+}

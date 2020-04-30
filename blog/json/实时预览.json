@@ -1,0 +1,36 @@
+{
+  "modified": "Thu Oct 10 2019 17:09:48 GMT+0800 (中国标准时间)",
+  "width": 180,
+  "height": 61,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btnBg",
+        "value": "symbols/新demo/风力发电机/普通状态框.json"
+      },
+      "pixelPerfect": true,
+      "displayName": "运动演示发亮框",
+      "rect": [
+        -2.5,
+        0,
+        184,
+        61
+      ]
+    },
+    {
+      "type": "text",
+      "text": "故障信息",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        11.77847,
+        24.05457,
+        163.12122,
+        17.14594
+      ]
+    }
+  ]
+}

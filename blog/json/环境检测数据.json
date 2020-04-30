@@ -1,0 +1,479 @@
+{
+  "modified": "Tue Oct 29 2019 19:32:21 GMT+0800 (中国标准时间)",
+  "background": "rgb(0,0,0)",
+  "width": 405,
+  "height": 135,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        61.06238,
+        51.339,
+        2.45992,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -76.75344,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(28,101,138,0.57)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        61.06237,
+        74.47604,
+        274.58507,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        61.06238,
+        74.91184,
+        2.45992,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -53.1806,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(56,211,242)",
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": "rgba(12,68,84,0.51)",
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clipCompartment",
+        "value": 0
+      },
+      "clipDirection": "right",
+      "rect": [
+        61.06237,
+        74.6942,
+        275.59296,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        61.06238,
+        99.9222,
+        2.45992,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -31.79469,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        61.06238,
+        124.53341,
+        2.45992,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        201.52422,
+        -3.55904,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "text",
+      "text": "环境温度",
+      "color": "rgba(255,255,255,0.91)",
+      "font": "11px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        46.13276,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机舱温度",
+      "color": "rgba(255,255,255,0.91)",
+      "font": "11px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        70.7056,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "齿轮箱温度",
+      "color": "rgba(255,255,255,0.91)",
+      "font": "11px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        95.71596,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "风速",
+      "color": "rgba(255,255,255,0.91)",
+      "font": "11px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        120.32717,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@environmentT",
+        "value": "0 ℃"
+      },
+      "color": "rgba(43,209,255,0.91)",
+      "font": "12px Verdana",
+      "pixelPerfect": true,
+      "rect": [
+        344.40582,
+        47.13276,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@compartmentT",
+        "value": "0 ℃"
+      },
+      "color": "rgba(43,209,255,0.91)",
+      "font": "12px Verdana",
+      "pixelPerfect": true,
+      "rect": [
+        344.40582,
+        70.7056,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@gearboxT",
+        "value": "0 ℃"
+      },
+      "color": "rgba(43,209,255,0.91)",
+      "font": "12px Verdana",
+      "pixelPerfect": true,
+      "rect": [
+        344.40582,
+        95.57048,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@windSpeed",
+        "value": ""
+      },
+      "color": "rgba(43,209,255,0.91)",
+      "font": "12px Verdana",
+      "pixelPerfect": true,
+      "rect": [
+        344.40582,
+        120.32717,
+        48.3911,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "01",
+      "color": "rgb(255,255,255)",
+      "font": "32px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        11.08469,
+        8.22414,
+        52.67559,
+        17.80371
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,215,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        2.44213,
+        2.4164,
+        2.37743,
+        29.34183
+      ]
+    },
+    {
+      "type": "text",
+      "text": "环境监测",
+      "color": "rgb(255,255,255)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        56.17085,
+        12.95452,
+        70.48301,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "environmental monitoring",
+      "color": "rgb(94,154,204)",
+      "font": "8px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        56.17085,
+        0,
+        70.48301,
+        17.80371
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(28,101,138,0.57)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        61.06237,
+        52.12085,
+        274.58507,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -75.5358,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(56,211,242)",
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": "rgba(12,68,84,0.51)",
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clipEnvironment",
+        "value": 0
+      },
+      "clipDirection": "right",
+      "rect": [
+        61.06237,
+        51.339,
+        275.59296,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(28,101,138,0.57)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        61.06237,
+        99.9222,
+        274.58507,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -27.73444,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(56,211,242)",
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": "rgba(12,68,84,0.51)",
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@clipGearbox",
+        "value": 0
+      },
+      "clipDirection": "right",
+      "rect": [
+        61.06237,
+        99.99387,
+        275.59296,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -8.69096,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(28,101,138,0.57)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        61.06237,
+        123.02593,
+        274.58507,
+        9.39123
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        198.11074,
+        -4.63071,
+        0.4353,
+        274.53205
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(56,211,242)",
+      "borderColor": "#979797",
+      "gradient": "linear.northwest",
+      "gradientColor": "rgba(12,68,84,0.51)",
+      "pixelPerfect": true,
+      "clipPercentage": {
+        "func": "attr@windSpeedClip",
+        "value": 0
+      },
+      "clipDirection": "right",
+      "rect": [
+        61.06237,
+        123.0976,
+        275.59296,
+        9.39123
+      ]
+    }
+  ]
+}

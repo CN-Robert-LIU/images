@@ -1,0 +1,527 @@
+{
+  "modified": "Tue Oct 29 2019 19:33:13 GMT+0800 (中国标准时间)",
+  "background": "rgb(0,0,0)",
+  "width": 144,
+  "height": 241,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(22,74,102,0.30)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        0.49956,
+        48.27881,
+        102.54781,
+        192.18092
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(17,74,102,0.64)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        0.00012,
+        48.27881,
+        47.51889,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        22.71266,
+        68.45667,
+        2.08465,
+        47.50971
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        11.78508,
+        74.6322,
+        11.78508,
+        67.91148,
+        23.75953,
+        55.93703,
+        35.73399,
+        67.91148,
+        35.73399,
+        74.6322,
+        23.75953,
+        62.65775
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        11.78508,
+        85.59572,
+        11.78508,
+        78.87501,
+        23.75953,
+        66.90055,
+        35.73399,
+        78.87501,
+        35.73399,
+        85.59572,
+        23.75953,
+        73.62127
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(17,74,102,0.64)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        56.01791,
+        48.27881,
+        47.51889,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        56.01791,
+        48.27881,
+        0.42571,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        78.73045,
+        68.45667,
+        2.08465,
+        47.50971
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        67.80287,
+        74.6322,
+        67.80287,
+        67.91148,
+        79.77732,
+        55.93703,
+        91.75178,
+        67.91148,
+        91.75178,
+        74.6322,
+        79.77732,
+        62.65775
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "closePath": true,
+      "points": [
+        67.80287,
+        85.59572,
+        67.80287,
+        78.87501,
+        79.77732,
+        66.90055,
+        91.75178,
+        78.87501,
+        91.75178,
+        85.59572,
+        79.77732,
+        73.62127
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(17,74,102,0.64)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        56.01785,
+        195.91868,
+        47.51889,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rect": [
+        103.11103,
+        195.91868,
+        0.42571,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": -1.57079,
+      "rect": [
+        78.73956,
+        173.20616,
+        2.08465,
+        47.50971
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "closePath": true,
+      "points": [
+        67.80287,
+        233.2355,
+        67.80287,
+        226.51478,
+        79.77732,
+        214.54033,
+        91.75178,
+        226.51478,
+        91.75178,
+        233.2355,
+        79.77732,
+        221.26105
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "closePath": true,
+      "points": [
+        67.80287,
+        222.27198,
+        67.80287,
+        215.55126,
+        79.77732,
+        203.57681,
+        91.75178,
+        215.55126,
+        91.75178,
+        222.27198,
+        79.77732,
+        210.29753
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(17,74,102,0.64)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        0.00006,
+        195.91868,
+        47.51889,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rect": [
+        47.09324,
+        195.91868,
+        0.42571,
+        44.97504
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": -1.57079,
+      "rect": [
+        22.72177,
+        173.20616,
+        2.08465,
+        47.50971
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "closePath": true,
+      "points": [
+        11.78508,
+        233.2355,
+        11.78508,
+        226.51478,
+        23.75953,
+        214.54033,
+        35.73399,
+        226.51478,
+        35.73399,
+        233.2355,
+        23.75953,
+        221.26105
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(21,197,232)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "closePath": true,
+      "points": [
+        11.78508,
+        222.27198,
+        11.78508,
+        215.55126,
+        23.75953,
+        203.57681,
+        35.73399,
+        215.55126,
+        35.73399,
+        222.27198,
+        23.75953,
+        210.29753
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(15,126,166,0.15)",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        5.04597,
+        123.23023,
+        93.71577,
+        41.06646
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,124,171)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        5.04597,
+        117.24279,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,124,171)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        28.78605,
+        117.24279,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,124,171)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        52.52613,
+        117.24279,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,124,171)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        76.26622,
+        117.24279,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(15,124,171,0.52)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        5.04597,
+        165.9998,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(15,124,171,0.52)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        28.78605,
+        165.9998,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(15,124,171,0.52)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        52.52613,
+        165.9998,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(15,124,171,0.52)",
+      "borderColor": "rgb(23,94,120)",
+      "pixelPerfect": true,
+      "rect": [
+        76.26622,
+        165.9998,
+        22.49552,
+        4.67597
+      ]
+    },
+    {
+      "type": "text",
+      "text": "风向：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        19.01071,
+        127.02588,
+        26.50744,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@directionText",
+        "value": ""
+      },
+      "align": "center",
+      "color": "rgb(0,212,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        46.82805,
+        127.02588,
+        44.48695,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "风速：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        19.01071,
+        142.69679,
+        26.50744,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@windSpeed",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(0,212,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        46.82804,
+        142.69679,
+        26.88166,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "m/s",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        73.7097,
+        142.69679,
+        17.6053,
+        17.80371
+      ]
+    }
+  ]
+}

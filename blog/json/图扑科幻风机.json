@@ -1,0 +1,2202 @@
+{
+  "v": "7.0.3",
+  "p": {
+    "background": "rgb(0,0,0)",
+    "envmap": "assets/贴图/环境光/星光2.jpg",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true,
+    "postProcessingData": {
+      "bloom": {
+        "enable": true,
+        "strength": 0.1,
+        "threshold": 0.22,
+        "radius": 0.4,
+        "overrideAlpha": false
+      },
+      "dof": {
+        "enable": false,
+        "aperture": 0.007,
+        "maxblur": 1,
+        "image": "assets/Depth.png"
+      }
+    }
+  },
+  "a": {
+    "onPostDeserialize": "__ht__function(json, dm, gv, datas) {// 禁止拖动\r\ngv.setMovableFunc(function () { return false });\r\n// 选中无边框\r\ngv.getSelectWidth = function () { return 0 };\r\n\r\ninit3d(dm, gv)}"
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 655,
+      "p": {
+        "displayName": "天空球",
+        "rotation": -3.33402,
+        "position": {
+          "x": 3625.13984,
+          "y": 5000
+        },
+        "anchor": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "anchorElevation": 0.1,
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "width": 100000,
+        "height": 100000,
+        "tall": 100000,
+        "elevation": -4000
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "rgb(4,11,26)",
+        "shape3d.reverse.flip": true,
+        "envmap": 0,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.uv.scale": [
+          1,
+          1
+        ],
+        "shape3d.from.uv.scale": [
+          1,
+          1
+        ],
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 656,
+      "p": {
+        "displayName": "风机机舱_线框",
+        "tag": "cabin",
+        "position": {
+          "x": -337,
+          "y": -135
+        },
+        "anchorElevation": 0,
+        "elevation": 9029
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_02.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.5,
+        "select.brightness": 0,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 1,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 657,
+      "p": {
+        "displayName": "logo",
+        "parent": {
+          "__i": 656
+        },
+        "tag": "logo",
+        "host": {
+          "__i": 656
+        },
+        "position": {
+          "x": -335.18498,
+          "y": -363.36461
+        },
+        "anchorElevation": 0,
+        "elevation": 9183.92298
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_logo_2001.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 658,
+      "p": {
+        "displayName": "风机机舱_白壳",
+        "parent": {
+          "__i": 656
+        },
+        "tag": "whiteShell1",
+        "host": {
+          "__i": 656
+        },
+        "position": {
+          "x": -335.00001,
+          "y": -138.00001
+        },
+        "width": 4095,
+        "height": 4095,
+        "tall": 667,
+        "elevation": 9374.60156
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_02.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04,
+        "shape3d.reverse.cull": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 659,
+      "p": {
+        "displayName": "风机轮毂_线框",
+        "parent": {
+          "__i": 656
+        },
+        "tag": "fanWireframe",
+        "host": {
+          "__i": 656
+        },
+        "position": {
+          "x": -339.00971,
+          "y": 375.73887
+        },
+        "height": 471,
+        "elevation": 9334.79334
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_03.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "envmap": 0.5,
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 660,
+      "p": {
+        "displayName": "风机轮毂_白壳",
+        "parent": {
+          "__i": 659
+        },
+        "tag": "whiteShell2",
+        "host": {
+          "__i": 659
+        },
+        "position": {
+          "x": -339.00971,
+          "y": 376.69523
+        },
+        "width": 1133,
+        "height": 471,
+        "tall": 1133,
+        "elevation": 9334.79334
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_04.json",
+        "wf.visible": "selected",
+        "shape3d.opacity": 1,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 661,
+      "p": {
+        "displayName": "风机扇叶_线框",
+        "parent": {
+          "__i": 660
+        },
+        "tag": "whiteShell3Line",
+        "host": {
+          "__i": 660
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": 1.04719,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_04.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "wf.combineTriangle": false,
+        "shape3d.opacity": 0.8,
+        "wf.color": "rgb(6,149,201)",
+        "envmap": 0.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 662,
+      "p": {
+        "displayName": "风机扇叶_流向",
+        "parent": {
+          "__i": 661
+        },
+        "tag": "q2",
+        "host": {
+          "__i": 661
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": 1.04719,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_05.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.blend": null
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 663,
+      "p": {
+        "displayName": "风机扇叶_白壳",
+        "parent": {
+          "__i": 661
+        },
+        "tag": "whiteShell3",
+        "host": {
+          "__i": 661
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": 1.04719,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "width": 9995,
+        "height": 602,
+        "tall": 9995,
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_05.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 664,
+      "p": {
+        "displayName": "风机扇叶_线框",
+        "parent": {
+          "__i": 660
+        },
+        "tag": "whiteShell4Line",
+        "host": {
+          "__i": 660
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": -1.0472,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_04.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.opacity": 0.8,
+        "envmap": 0.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 665,
+      "p": {
+        "displayName": "风机扇叶_流向",
+        "parent": {
+          "__i": 664
+        },
+        "tag": "q3",
+        "host": {
+          "__i": 664
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": -1.0472,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "width": 9995,
+        "height": 602,
+        "tall": 9995,
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_05.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 666,
+      "p": {
+        "displayName": "风机扇叶_白壳",
+        "parent": {
+          "__i": 664
+        },
+        "tag": "whiteShell4",
+        "host": {
+          "__i": 664
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": -1.0472,
+        "position": {
+          "x": -339,
+          "y": 306
+        },
+        "width": 9995,
+        "height": 602,
+        "tall": 9995,
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_05.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 667,
+      "p": {
+        "displayName": "风机扇叶_线框",
+        "parent": {
+          "__i": 660
+        },
+        "tag": "whiteShell5Line",
+        "host": {
+          "__i": 660
+        },
+        "position": {
+          "x": -339,
+          "y": 305.73864
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_04.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "shape3d.opacity": 0.8,
+        "envmap": 0.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 668,
+      "p": {
+        "displayName": "风机扇叶_流向",
+        "parent": {
+          "__i": 667
+        },
+        "tag": "q1",
+        "host": {
+          "__i": 667
+        },
+        "rotationX": 0.00001,
+        "position": {
+          "x": -339,
+          "y": 305.73864
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_05.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 669,
+      "p": {
+        "displayName": "风机扇叶_白壳",
+        "parent": {
+          "__i": 667
+        },
+        "tag": "whiteShell5",
+        "host": {
+          "__i": 667
+        },
+        "rotationX": 0.00001,
+        "position": {
+          "x": -339,
+          "y": 305.73864
+        },
+        "width": 9995,
+        "height": 602,
+        "tall": 9995,
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_05.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 670,
+      "p": {
+        "displayName": "变桨系统",
+        "parent": {
+          "__i": 659
+        },
+        "tag": "i10",
+        "host": {
+          "__i": 659
+        },
+        "position": {
+          "x": -324.2336,
+          "y": 329.29548
+        },
+        "elevation": 9332.66389
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_01.json",
+        "wf.color": "rgba(255,255,255,0)",
+        "wf.combineTriangle": 3,
+        "envmap": 0.05,
+        "shape3d.opacity": 1,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 671,
+      "p": {
+        "displayName": "主轴_流向",
+        "parent": {
+          "__i": 659
+        },
+        "tag": "q5",
+        "host": {
+          "__i": 659
+        },
+        "rotation": 0.00001,
+        "position": {
+          "x": -339.00108,
+          "y": -82.30067
+        },
+        "elevation": 9335
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_03.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.opacity": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 672,
+      "p": {
+        "displayName": "主轴_流向2",
+        "parent": {
+          "__i": 659
+        },
+        "tag": "q6",
+        "host": {
+          "__i": 659
+        },
+        "position": {
+          "x": -339.43093,
+          "y": -81.99999
+        },
+        "elevation": 9344
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_02.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.cull": true,
+        "shape3d.opacity": 0.3,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 673,
+      "p": {
+        "displayName": "机舱内部设备",
+        "parent": {
+          "__i": 656
+        },
+        "tag": "internals",
+        "host": {
+          "__i": 656
+        },
+        "position": {
+          "x": -329.65219,
+          "y": -419.18985
+        },
+        "width": 10354.65918,
+        "height": 2641.00049,
+        "tall": 14066.89258,
+        "elevation": 7033.23963
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 674,
+      "p": {
+        "displayName": "发电机位置导航",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "navigation",
+        "image": "symbols/新demo/风力发电机/close.json",
+        "host": {
+          "__i": 673
+        },
+        "rotation": -0.4744,
+        "position": {
+          "x": -393.00175,
+          "y": -795.44044
+        },
+        "anchorElevation": 0,
+        "scaleTall": 98.06813,
+        "width": 160,
+        "elevation": 9286.13132
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/新demo/风力发电机/close.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "wf.visible": "selected",
+        "shape3d.vector.dynamic": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 675,
+      "p": {
+        "displayName": "齿轮箱",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i1",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -337.33836,
+          "y": -445.67528
+        },
+        "elevation": 9338.90644
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_06.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.color": "rgb(255,23,124)",
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 676,
+      "p": {
+        "displayName": "风冷系统",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i2",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -400.61734,
+          "y": -895.30949
+        },
+        "elevation": 9436.78498
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_09.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 677,
+      "p": {
+        "displayName": "油冷装置",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i3",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -402.12171,
+          "y": -568.91861
+        },
+        "elevation": 9430.12116
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_08.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 678,
+      "p": {
+        "displayName": "控制柜",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i4",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -302.05265,
+          "y": -981.1584
+        },
+        "elevation": 9305.62953
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_10.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 679,
+      "p": {
+        "displayName": "发电机",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i5",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -403.22559,
+          "y": -930.37918
+        },
+        "elevation": 9283.02755
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_02.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 680,
+      "p": {
+        "displayName": "高速轴",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i6",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -401.37786,
+          "y": -629.7072
+        },
+        "elevation": 9308.4014
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_07.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 681,
+      "p": {
+        "displayName": "机舱平台",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i7",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -337.43079,
+          "y": -517.55885
+        },
+        "elevation": 9176.04379
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_11.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 682,
+      "p": {
+        "displayName": "连接装置",
+        "parent": {
+          "__i": 673
+        },
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -338.72182,
+          "y": 139.70308
+        },
+        "elevation": 9333.49743
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_03.json",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 683,
+      "p": {
+        "displayName": "偏航装置",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i8",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -337.44483,
+          "y": -134.74336
+        },
+        "elevation": 9241.9546
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_04.json",
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 684,
+      "p": {
+        "displayName": "主轴",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "i9",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -336.72243,
+          "y": -101.12714
+        },
+        "elevation": 9333.86356
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_05.json",
+        "wf.color": "rgba(0,187,255,0.30)",
+        "wf.combineTriangle": 3,
+        "shape3d.opacity": 1,
+        "envmap": 0.05,
+        "interactive": true,
+        "shape3d.blend": "rgb(255,255,255)",
+        "select.brightness": 1,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 685,
+      "p": {
+        "displayName": "发电机_流向",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "q16",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -384.65133,
+          "y": -682.79332
+        },
+        "anchorElevation": 0,
+        "elevation": 9192.13859
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_06.json",
+        "shape3d.opacity": 1,
+        "2d.movable": false,
+        "3d.movable": false,
+        "wf.combineTriangle": 3,
+        "interactive": true,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 686,
+      "p": {
+        "displayName": "发电机转动",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "dynamo",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -403.77425,
+          "y": -893.3537
+        },
+        "width": 161.79253,
+        "height": 285.39804,
+        "tall": 161.79238,
+        "elevation": 9312.27283
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 687,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w8",
+        "host": {
+          "__i": 686
+        },
+        "rotationZ": -1.53589,
+        "position": {
+          "x": -403.77463,
+          "y": -1023.42058
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 688,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w1",
+        "host": {
+          "__i": 686
+        },
+        "position": {
+          "x": -403.77391,
+          "y": -763.2868
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 689,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w2",
+        "host": {
+          "__i": 686
+        },
+        "rotationZ": 0.62832,
+        "position": {
+          "x": -403.774,
+          "y": -799.62402
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 690,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w3",
+        "host": {
+          "__i": 686
+        },
+        "rotationZ": 1.25664,
+        "position": {
+          "x": -403.7741,
+          "y": -836.53999
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 691,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w4",
+        "host": {
+          "__i": 686
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": 0.90757,
+        "position": {
+          "x": -403.77421,
+          "y": -873.22183
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 692,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w5",
+        "host": {
+          "__i": 686
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": 0.27925,
+        "position": {
+          "x": -403.77431,
+          "y": -910.78277
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 693,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w6",
+        "host": {
+          "__i": 686
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": -0.34907,
+        "position": {
+          "x": -403.77442,
+          "y": -947.63907
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 694,
+      "p": {
+        "displayName": "发电机_转动",
+        "parent": {
+          "__i": 686
+        },
+        "tag": "w7",
+        "host": {
+          "__i": 686
+        },
+        "rotation": 3.14159,
+        "rotationX": -3.14159,
+        "rotationZ": -0.97739,
+        "position": {
+          "x": -403.77452,
+          "y": -985.89472
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9312.27314
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 695,
+      "p": {
+        "displayName": "齿轮箱转动",
+        "parent": {
+          "__i": 673
+        },
+        "tag": "wheelGear",
+        "host": {
+          "__i": 673
+        },
+        "position": {
+          "x": -350.68426,
+          "y": -505.64502
+        },
+        "width": 140.75651,
+        "height": 410.97391,
+        "tall": 133.58937,
+        "elevation": 9328.23499
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 696,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q15",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -395.44907,
+          "y": -706.74385
+        },
+        "scale": {
+          "x": 0.4,
+          "y": 0.24768
+        },
+        "scaleTall": 0.4,
+        "elevation": 9316.01613
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 697,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q7",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -344.34066,
+          "y": -317.87475
+        },
+        "elevation": 9325.47643
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 698,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q8",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -344.34076,
+          "y": -357.66738
+        },
+        "scale": {
+          "x": 0.9,
+          "y": 0.71301
+        },
+        "scaleTall": 0.9,
+        "elevation": 9325.47643
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 699,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q9",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -363.12472,
+          "y": -389.0671
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.61948
+        },
+        "scaleTall": 0.8,
+        "elevation": 9343.801
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 700,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q10",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -347.51246,
+          "y": -418.94848
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.61948
+        },
+        "scaleTall": 0.8,
+        "elevation": 9323.40879
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 701,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q11",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -370.25508,
+          "y": -451.57659
+        },
+        "scale": {
+          "x": 0.7,
+          "y": 0.4383
+        },
+        "scaleTall": 0.7,
+        "elevation": 9323.40879
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 702,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q12",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -373.19401,
+          "y": -479.29288
+        },
+        "scale": {
+          "x": 0.6,
+          "y": 0.35275
+        },
+        "scaleTall": 0.6,
+        "elevation": 9323.40879
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 703,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q13",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -377.66532,
+          "y": -508.81719
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.24768
+        },
+        "scaleTall": 0.5,
+        "elevation": 9316.01613
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 704,
+      "p": {
+        "displayName": "齿轮箱_转动",
+        "parent": {
+          "__i": 695
+        },
+        "tag": "q14",
+        "host": {
+          "__i": 695
+        },
+        "position": {
+          "x": -395.44865,
+          "y": -556.67056
+        },
+        "scale": {
+          "x": 0.4,
+          "y": 0.24768
+        },
+        "scaleTall": 0.4,
+        "elevation": 9316.01613
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.8,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 705,
+      "p": {
+        "displayName": "风机塔筒_白壳",
+        "tag": "whiteShell6",
+        "position": {
+          "x": -337,
+          "y": -135
+        },
+        "anchorElevation": 1,
+        "width": 443,
+        "tall": 9038,
+        "elevation": 9054.90511
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_white_2001_01.json",
+        "wf.visible": "selected",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.04,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 706,
+      "p": {
+        "displayName": "风机塔筒_线框",
+        "position": {
+          "x": -337,
+          "y": -135
+        },
+        "anchorElevation": 1,
+        "elevation": 9061.95021
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_grid_2001_01.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "envmap": 0.5,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 707,
+      "p": {
+        "displayName": "风机塔筒_流向",
+        "tag": "q4",
+        "position": {
+          "x": -337,
+          "y": -135
+        },
+        "elevation": 4525.32639
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_flow_2001_04.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0.5,
+        "shape3d.reverse.cull": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 708,
+      "p": {
+        "position": {
+          "x": -337,
+          "y": -135
+        },
+        "width": 400.36139,
+        "height": 1287.19156,
+        "tall": 349.66793,
+        "elevation": 9321.13185
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.visible": false,
+        "3d.visible": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 709,
+      "p": {
+        "displayName": "主轴",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -336.27768,
+          "y": 291.81474
+        },
+        "elevation": 9334.07022
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_05.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 710,
+      "p": {
+        "displayName": "齿轮箱",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -340.15322,
+          "y": -53.43872
+        },
+        "elevation": 9339.1131
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_06.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 711,
+      "p": {
+        "displayName": "风冷系统",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -400.17038,
+          "y": -503.07294
+        },
+        "elevation": 9436.99164
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_09.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 712,
+      "p": {
+        "displayName": "发电机",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -402.60059,
+          "y": -538.02495
+        },
+        "width": 160,
+        "elevation": 9283
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_02.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 713,
+      "p": {
+        "displayName": "高速轴",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -400.93164,
+          "y": -237.47076
+        },
+        "elevation": 9308.60806
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_07.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 714,
+      "p": {
+        "displayName": "偏航装置",
+        "parent": {
+          "__i": 708
+        },
+        "host": {
+          "__i": 708
+        },
+        "position": {
+          "x": -336.99999,
+          "y": 257.49306
+        },
+        "elevation": 9242.16126
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/windpowergenerator_inside_2001_04.json",
+        "wf.geometry": true,
+        "wf.combineTriangle": 3,
+        "shape3d.transparent": true,
+        "shape3d.opacity": 0,
+        "wf.color": "rgba(0,187,255,0.30)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 715,
+      "p": {
+        "displayName": "地形",
+        "width": 117278.49609,
+        "height": 117278.49609,
+        "tall": 100000
+      },
+      "s": {
+        "shape3d": "box",
+        "shape3d.transparent": true,
+        "shape3d.color": "rgba(0, 0, 0, 0)",
+        "shape3d.reverse.cull": true,
+        "__group__": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.visible": false,
+        "3d.visible": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 716,
+      "p": {
+        "displayName": "HT科幻地面",
+        "parent": {
+          "__i": 715
+        },
+        "tag": "floor",
+        "host": {
+          "__i": 715
+        },
+        "position": {
+          "x": -471,
+          "y": 211
+        },
+        "anchorElevation": 0,
+        "elevation": 138
+      },
+      "s": {
+        "shape3d": "models/机械设备/风力发电机/HTground_sciencefiction_2001.json",
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.editable": false,
+        "3d.editable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.uv.offset": [
+          0,
+          -5.19
+        ],
+        "shape3d.opacity": 0.5
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 717,
+      "p": {
+        "displayName": "罗盘",
+        "tag": "compass",
+        "image": "symbols/新demo/风力发电机/底.json",
+        "rotationX": -1.5708,
+        "position": {
+          "x": -378,
+          "y": -177
+        },
+        "scale": {
+          "x": 20,
+          "y": 20
+        },
+        "scaleTall": 20,
+        "height": -56,
+        "elevation": -0.00291
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/新demo/风力发电机/底.json",
+        "shape3d.fixSizeOnScreen": false,
+        "wf.visible": "selected",
+        "shape3d.transparent": true,
+        "shape3d.reverse.flip": true,
+        "shape3d.color": "rgb(255,255,255)",
+        "wf.color": "rgb(26,170,189)",
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 718,
+      "p": {
+        "displayName": "信息面板",
+        "tag": "info",
+        "image": "symbols/新demo/风力发电机/面板.json",
+        "rotation": -0.22148,
+        "position": {
+          "x": -594.61464,
+          "y": 1909.6692
+        },
+        "anchor": {
+          "x": 0,
+          "y": 0.5
+        },
+        "anchorElevation": 0,
+        "scaleTall": 0.05457,
+        "elevation": 9330
+      },
+      "s": {
+        "shape3d": "billboard",
+        "shape3d.image": "symbols/新demo/风力发电机/面板.json",
+        "shape3d.autorotate": true,
+        "shape3d.fixSizeOnScreen": [
+          -1,
+          -1
+        ],
+        "shape3d.vector.dynamic": false,
+        "shape3d.alwaysOnTop": true,
+        "shape3d.transparent": true,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.visible": false,
+        "3d.visible": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "interactive": true,
+        "2d.editable": false,
+        "3d.editable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 719,
+      "p": {
+        "displayName": "黑洞球",
+        "tag": "blackBox",
+        "rotation": -3.33402,
+        "rotationZ": 0.97574,
+        "position": {
+          "x": 200000,
+          "y": -363084
+        },
+        "scale": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "scaleTall": 0.1,
+        "width": 10000000,
+        "height": 10000000,
+        "tall": 10000000,
+        "elevation": 100469
+      },
+      "s": {
+        "shape3d": "sphere",
+        "shape3d.color": "rgb(4,11,26)",
+        "shape3d.reverse.flip": true,
+        "envmap": 0,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false,
+        "shape3d.uv.scale": [
+          1,
+          1
+        ],
+        "shape3d.from.uv.scale": [
+          1,
+          1
+        ]
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      10794.87789,
+      11985.86763,
+      20495.63144
+    ],
+    "center": [
+      1462.40887,
+      6638.57806,
+      366.96814
+    ],
+    "near": 10,
+    "far": 10000000,
+    "background": "rgb(0,0,0)",
+    "gridVisible": false,
+    "gridSize": 50,
+    "gridGap": 50,
+    "gridColor": null,
+    "editHelperDisabled": false
+  }
+}

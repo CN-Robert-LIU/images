@@ -1,0 +1,372 @@
+{
+  "modified": "Mon Oct 28 2019 13:29:29 GMT+0800 (中国标准时间)",
+  "width": 306,
+  "height": 187,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.37)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        142.86159,
+        13.5719,
+        2.32366,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.37)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        146.13964,
+        13.5719,
+        2.32366,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(34,96,125,0.40)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        125.88206,
+        13.5719,
+        4.29334,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(35,98,125,0.72)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        131.25459,
+        13.5719,
+        4.29334,
+        10.83557
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/新demo/风力发电机/变将.json",
+      "pixelPerfect": true,
+      "displayName": "变将",
+      "rect": [
+        17.85404,
+        12.94541,
+        151.30837,
+        149.54897
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(23,165,194)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "points": [
+        1.90794,
+        14.28347,
+        1.90794,
+        2.77858,
+        13.8613,
+        2.77858
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 4,
+      "borderColor": "rgb(23,165,194)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "points": [
+        169.16243,
+        174.38962,
+        169.16243,
+        163.28443,
+        180.70051,
+        163.28443
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(13,195,219)",
+      "borderPattern": [
+        8,
+        10
+      ],
+      "pixelPerfect": true,
+      "points": [
+        29.00293,
+        3.48668,
+        139.74838,
+        3.48668
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(13,195,219)",
+      "borderPattern": [
+        8,
+        10
+      ],
+      "pixelPerfect": true,
+      "points": [
+        81.2545,
+        173.94391,
+        161.26683,
+        173.94391
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,156,0.72)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        5.89074,
+        168.83702,
+        7.56012,
+        7.86479
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(34,96,125,0.40)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        5.70112,
+        151.65881,
+        4.29334,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(35,98,125,0.72)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        11.07366,
+        151.65881,
+        4.29334,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,156,0.72)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        17.05292,
+        151.65881,
+        4.29334,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.37)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        22.68066,
+        151.65881,
+        2.32366,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.37)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        25.9587,
+        151.65881,
+        2.32366,
+        10.83557
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.44)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        16.01713,
+        168.83702,
+        7.56012,
+        7.86479
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,156,0.72)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        164.69953,
+        0,
+        7.56012,
+        7.86479
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(47,123,158,0.44)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        174.82593,
+        0,
+        7.56012,
+        7.86479
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 6,
+      "borderColor": "rgba(17,143,189,0.93)",
+      "borderPattern": [
+        1,
+        7
+      ],
+      "pixelPerfect": true,
+      "points": [
+        194.35762,
+        0.85749,
+        194.35762,
+        186.76488
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 6,
+      "borderColor": "rgba(17,143,189,0.81)",
+      "borderPattern": [
+        1,
+        7
+      ],
+      "pixelPerfect": true,
+      "points": [
+        197.27116,
+        183.32737,
+        0,
+        183.32737
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,215,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        210.08957,
+        160.866,
+        2.11929,
+        26.15582
+      ]
+    },
+    {
+      "type": "text",
+      "text": "变桨系统",
+      "color": "rgb(69,181,222)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        217.57214,
+        173.64908,
+        62.82979,
+        15.87053
+      ]
+    },
+    {
+      "type": "text",
+      "text": "variable-pitch systems",
+      "color": "rgb(94,154,204)",
+      "font": "8px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        217.57214,
+        161.20977,
+        62.82979,
+        15.87053
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(164,229,237)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "rotation": 0.7854,
+      "points": [
+        152.02387,
+        24.78649,
+        153.83285,
+        26.59548,
+        155.64182,
+        24.78649
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(164,229,237)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "rotation": -2.3562,
+      "points": [
+        167.22536,
+        14.585,
+        169.03434,
+        16.39398,
+        170.84332,
+        14.585
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(164,229,237)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "rotation": -0.7854,
+      "points": [
+        167.59354,
+        24.56269,
+        169.40252,
+        26.37167,
+        171.2115,
+        24.56269
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(164,229,237)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "rotation": 2.35619,
+      "points": [
+        151.77955,
+        14.7487,
+        153.58852,
+        16.55767,
+        155.39751,
+        14.7487
+      ]
+    }
+  ]
+}

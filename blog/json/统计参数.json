@@ -1,0 +1,465 @@
+{
+  "modified": "Wed Oct 30 2019 15:01:40 GMT+0800 (中国标准时间)",
+  "background": "rgb(0,0,0)",
+  "width": 263,
+  "height": 164,
+  "comps": [
+    {
+      "type": "text",
+      "text": "统计参数",
+      "color": "rgb(255,255,255)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        0,
+        70.48301,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Statistical parameters",
+      "color": "rgb(60,164,201)",
+      "font": "8px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        0,
+        16.37496,
+        121.6979,
+        17.80371
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        2.97277,
+        43.30901,
+        52.14982,
+        1.61705
+      ]
+    },
+    {
+      "type": "text",
+      "text": "年发电量：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        1.97277,
+        54.85419,
+        70.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "月发电量：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        1.97277,
+        82.81084,
+        70.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "日发电量：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        1.97277,
+        107.8538,
+        70.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "总功率：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        1.97277,
+        132.89674,
+        70.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "负荷率：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        137.87686,
+        54.85419,
+        46.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "平均风速：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        137.87686,
+        84.2677,
+        46.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "最大风速：",
+      "color": "rgb(255,255,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        137.87686,
+        110.76751,
+        46.48301,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@generatingCapacityOneYear",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        48.00254,
+        55.65501,
+        52,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@generatingCapacityOneMonth",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        48.00254,
+        82.50521,
+        52,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@generatingCapacityDay",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        48.00254,
+        107.2425,
+        52,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@generatingCapacityTotal",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        48.00254,
+        133.17991,
+        52,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@average",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        184.63391,
+        84.50613,
+        37,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@Max",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        184.63391,
+        112.22436,
+        37,
+        25.93741
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        3.97275,
+        133.42503,
+        0.29984,
+        30.04769
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        20.00756,
+        146.04516,
+        1.39275,
+        33.46235
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        42.36079,
+        133.42503,
+        0.29984,
+        30.04769
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        58.3956,
+        146.04516,
+        1.39275,
+        33.46235
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,24,33,0.71)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(3,25,51,0.00)",
+      "pixelPerfect": true,
+      "rotation": 3.14159,
+      "rect": [
+        80.10131,
+        133.42503,
+        0.29984,
+        30.04769
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgba(0,225,255,0.25)",
+      "borderColor": "#979797",
+      "gradient": "linear.west",
+      "gradientColor": "rgba(0,212,255,0.00)",
+      "pixelPerfect": true,
+      "rotation": 1.5708,
+      "rect": [
+        96.13612,
+        146.04516,
+        1.39275,
+        33.46235
+      ]
+    },
+    {
+      "type": "text",
+      "text": "万kWh",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        97.27227,
+        57.7679,
+        36,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "万kWh",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "displayName": "万kWh",
+      "rect": [
+        97.27227,
+        82.50521,
+        36,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "万kWh",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        97.27227,
+        107.2425,
+        36,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "万kWh",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        97.27227,
+        132.89674,
+        36,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "m/s",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        223.23232,
+        83.04037,
+        21.87123,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "m/s",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        223.23232,
+        112.22436,
+        20.90524,
+        25.93741
+      ]
+    },
+    {
+      "type": "columnChart",
+      "series": [
+        {
+          "values": [
+            10,
+            20,
+            40,
+            60,
+            80
+          ],
+          "colors": [
+            "#7EB6EA",
+            "#434348",
+            "#93EB82",
+            "#F5A262",
+            "#8087E6"
+          ]
+        }
+      ],
+      "rect": [
+        191.75066,
+        80.89481,
+        0.29961,
+        0.29961
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@loadRate",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(74,225,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        184.63391,
+        54.85419,
+        37,
+        25.93741
+      ]
+    },
+    {
+      "type": "text",
+      "text": "万kWh",
+      "color": "rgb(150,189,255)",
+      "font": "10px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        223.23232,
+        54.18924,
+        28.25509,
+        25.93741
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "modified": "Wed Sep 25 2019 10:51:48 GMT+0800 (中国标准时间)",
+  "width": 545,
+  "height": 194,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(6,57,79,0.40)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rotation": 6.28319,
+      "rect": [
+        0.00046,
+        0.00128,
+        544.83345,
+        194.2575
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "modified": "Tue Oct 29 2019 10:05:11 GMT+0800 (中国标准时间)",
+  "width": 143,
+  "height": 30,
+  "comps": [
+    {
+      "type": "text",
+      "text": "03",
+      "color": "rgb(255,255,255)",
+      "font": "32px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        8.64262,
+        8.22414,
+        52.67559,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "发电参数",
+      "color": "rgb(255,255,255)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        53.72878,
+        12.95452,
+        70.48301,
+        17.80371
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Generation parameters",
+      "color": "rgb(94,154,204)",
+      "font": "8px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rect": [
+        53.72878,
+        0,
+        70.48301,
+        17.80371
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(15,215,255)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        0.49956,
+        0.4164,
+        2.37743,
+        29.34183
+      ]
+    }
+  ]
+}

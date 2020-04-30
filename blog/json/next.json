@@ -1,0 +1,34 @@
+{
+  "modified": "Mon Oct 14 2019 10:15:35 GMT+0800 (中国标准时间)",
+  "width": 20,
+  "height": 21,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgba(16,73,102,0.79)",
+      "borderColor": "#979797",
+      "pixelPerfect": true,
+      "rect": [
+        0.12774,
+        -0.38448,
+        19.56271,
+        20.55952
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(255,255,255)",
+      "borderJoin": "miter",
+      "pixelPerfect": true,
+      "points": [
+        4.56349,
+        8.22248,
+        9.90909,
+        13.56808,
+        15.25468,
+        8.22248
+      ]
+    }
+  ]
+}

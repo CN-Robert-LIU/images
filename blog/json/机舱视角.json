@@ -1,0 +1,37 @@
+{
+  "modified": "Fri Nov 01 2019 11:21:54 GMT+0800 (中国标准时间)",
+  "width": 160,
+  "height": 65,
+  "comps": [
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btnBg",
+        "value": "symbols/新demo/风力发电机/普通状态框.json"
+      },
+      "pixelPerfect": true,
+      "displayName": "机舱视角发亮框",
+      "rect": [
+        5.75031,
+        1.5,
+        143.1589,
+        61
+      ]
+    },
+    {
+      "type": "text",
+      "text": "机舱视角",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "12px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "displayName": "机舱视角文字",
+      "rect": [
+        -6.29987,
+        25.42703,
+        171.59974,
+        17.14594
+      ]
+    }
+  ]
+}

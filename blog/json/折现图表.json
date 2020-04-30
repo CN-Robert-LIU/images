@@ -1,0 +1,389 @@
+{
+  "modified": "Wed Oct 16 2019 14:34:53 GMT+0800 (中国标准时间)",
+  "background": "rgb(0,0,0)",
+  "width": 307,
+  "height": 133,
+  "clip": true,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        28.61573,
+        113.7618,
+        28.61573,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        52.48136,
+        113.7618,
+        52.48136,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        92.54269,
+        113.7618,
+        92.54269,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        141.67983,
+        113.7618,
+        141.67983,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        182.70471,
+        113.7618,
+        182.70471,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        212.6042,
+        113.7618,
+        212.6042,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        262.66846,
+        113.7618,
+        262.66846,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        296.04464,
+        113.7618,
+        296.04464,
+        6.0869
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        104.93904,
+        304.5849,
+        104.93904
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        95.19567,
+        304.5849,
+        95.19567
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        84.85162,
+        304.5849,
+        84.85162
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        74.65334,
+        304.5849,
+        74.65334
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        63.52724,
+        304.5849,
+        63.52724
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        53.04165,
+        304.5849,
+        53.04165
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        42.37981,
+        304.5849,
+        42.37981
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        32.03576,
+        304.5849,
+        32.03576
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        21.83748,
+        304.5849,
+        21.83748
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(4,79,99)",
+      "points": [
+        19.42534,
+        10.71138,
+        304.5849,
+        10.71138
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.7,
+      "borderColor": "rgb(22,150,196)",
+      "points": [
+        19.2047,
+        5.95407,
+        19.2047,
+        113.72064,
+        304.51637,
+        113.72064
+      ]
+    },
+    {
+      "type": "text",
+      "text": "a",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        22.34949,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "b",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        46.09349,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "c",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        86.15482,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "d",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        134.79196,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "e",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        176.31684,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "f",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        206.21633,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "g",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        256.2806,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "h",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        289.83823,
+        116.29698,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        2,
+        100.53792,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "5",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        2,
+        80.9505,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "10",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        2,
+        59.62612,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "15",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        2,
+        38.47869,
+        12.77573,
+        7.80224
+      ]
+    },
+    {
+      "type": "text",
+      "text": "20",
+      "align": "center",
+      "color": "rgb(35,189,232)",
+      "font": "8px Verdana",
+      "rect": [
+        2,
+        17.85305,
+        12.77573,
+        7.80224
+      ]
+    }
+  ]
+}
